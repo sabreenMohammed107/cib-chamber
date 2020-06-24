@@ -7285,7 +7285,7 @@ h1, h2, h3, h4, h5, h6 {
             }
             
             .mobile-nav-toggle i {
-              color: #fff;
+              color: #000;
             }
             
             .mobile-nav {
@@ -7313,14 +7313,14 @@ h1, h2, h3, h4, h5, h6 {
             .mobile-nav a {
               display: block;
               position: relative;
-              color: #fff;
+              color: #000;
               padding: 10px 20px;
               font-weight: 500;
               outline: none;
             }
             
             .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-              color: #e82d2d;
+              color: #0c0c0c;
               text-decoration: none;
             }
             
@@ -7367,7 +7367,7 @@ h1, h2, h3, h4, h5, h6 {
             }
             
             .mobile-nav-active .mobile-nav {
-              background-color: #111;
+              background-color: #fdfdfd;
               opacity: 1;
               visibility: visible;
             }
