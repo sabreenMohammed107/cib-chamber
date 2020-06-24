@@ -424,7 +424,7 @@ textarea.input {
 }
 
 .nav-menu>li>a {
-  color: #ffffffc7;
+  color: #161515;
   display: block;
   padding: 40px 15px 15px 15px;
   line-height: 20px;
@@ -442,7 +442,7 @@ textarea.input {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #fff;
+  background: #000;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -466,7 +466,7 @@ textarea.input {
 
 .nav-menu li.has-dropdown>.dropdown {
   position: absolute;
-  left: 0;
+  right: 0; /*in English make it left*/
   width: 200px;
   text-align: left;
   z-index: 60;
@@ -489,11 +489,25 @@ textarea.input {
 
 .nav-menu li.has-dropdown>.dropdown .dropdown-body {
 
-  background-color:#000101cc;
+  background-color:#ffffffdb;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   margin-top: 12px;
   z-index: 0;
+  /* border-top: 2px solid #9E9E9E; */
+}
+
+#header.header-scrolled .nav-menu li.has-dropdown>.dropdown .dropdown-body {
+
+  background-color:#fff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 12px;
+  z-index: 0;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1), 0 8px 6px -6px black;
+          /* box-shadow: 0px 2px 1px #888, 0px -2px 1px #888; */
   /* border-top: 2px solid #9E9E9E; */
 }
 
@@ -503,7 +517,7 @@ textarea.input {
 
 .dropdown .dropdown-list li a {
   font-size: 12px;
-  color: #fff;
+  color: #000;
   display: block;
   padding: 10px;
   line-height: 20px;
@@ -520,7 +534,7 @@ textarea.input {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #fff;
+  background: #000;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -529,8 +543,8 @@ textarea.input {
   left: 0; 
 }
 .dropdown .dropdown-heading {
-  color: #ffffffc7;
-  border-bottom: 2px solid #fff;
+  color: #252525c7;
+  border-bottom: 2px solid #000;
   text-transform: uppercase;
   font-size: 14px;
   margin-top: 0px;
@@ -559,7 +573,7 @@ textarea.input {
 }
 
 .nav-menu li.has-dropdown.megamenu>.dropdown .dropdown-list li a {
-  color: #fff;
+  color: #000;
   padding-left: 0px;
   padding-right: 0px;
 }

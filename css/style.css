@@ -7050,7 +7050,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
-  color: rgba(255, 255, 255, 0.6);
+  color: #161515;
 }
 
 #topbar.topbar-scrolled {
@@ -7059,16 +7059,17 @@ h1, h2, h3, h4, h5, h6 {
 
 #topbar .contact-info a {
   line-height: 1;
-  color: rgba(255, 255, 255, 0.6);
+  color:#161515;
   transition: 0.3s;
 }
 
 #topbar .contact-info a:hover {
-  color: #fff;
+  color: #161515;
+  text-decoration: underline;
 }
 
 #topbar .contact-info i {
-  color: #fbfbfb;
+  color: #161515;
   padding-right: 4px;
 }
 
@@ -7077,7 +7078,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #161515;
   padding-left: 15px;
   display: inline-block;
   line-height: 1px;
@@ -7085,7 +7086,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #fff;
+  color: #161515;
 }
 
 #topbar .social-links a:first-child {
@@ -7096,7 +7097,7 @@ h1, h2, h3, h4, h5, h6 {
             # Header
             --------------------------------------------------------------*/
             #header {
-              background-color:#00010194;
+              background-color:#ffffffcf;
               transition: all 0.5s;
               z-index: 997;
               top: 0px;
@@ -7108,7 +7109,9 @@ h1, h2, h3, h4, h5, h6 {
             #header.header-scrolled {
               top: 0;
               padding: 0;
-              background:#00010194;
+              /* background:#00010194; */
+              box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.10);
+    background: #ffff;
             }
             
             #header .logo {
@@ -7128,7 +7131,8 @@ h1, h2, h3, h4, h5, h6 {
             #header .logo img {
               max-height: 100px;
           }
-            
+       
+       
             @media (max-width: 992px) {
               #header {
                 top: 0;
@@ -7445,10 +7449,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-item::before {
   content: '';
-  /* background-color: rgba(0, 0, 0, 0.7); */
+  /* background-color: rgba(128, 128, 128, 0.473); */
   position: absolute;
   height: 100%;
   width: 100%;
+  opacity: 0.5;
   top: 0;
   right: 0;
   left: 0;
@@ -7586,3 +7591,15 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 /*--------------------------------------------------------------
+carosal
+*/
+.carousel .carousel-indicators li {
+  background-color: #fff;
+  background-color: rgba(70,70,70,.25);
+  padding: 0 10px;
+  margin: 0 5px;
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #444;
+}
